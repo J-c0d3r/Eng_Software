@@ -12,6 +12,7 @@
 
 ./node_modules
 ./out
+./ideia
 <<<<<<< HEAD
 package-lock.json
 =======

@@ -18,3 +18,4 @@ Tecnologias e Ferramentas Utilizadas: `JavaScript e Visual Studio`
 
 - Revisão POO - Tarefa 1
 - Calculadora JS - Tarefa 2
+- Criação de API - Tarefa 5

@@ -13,11 +13,8 @@
 ./node_modules
 ./out
 ./ideia
-<<<<<<< HEAD
 package-lock.json
-=======
 ./target
->>>>>>> 62d12050580f128591c5ebe8b487e4465e881d30
 
 # Package Files #
 *.jar

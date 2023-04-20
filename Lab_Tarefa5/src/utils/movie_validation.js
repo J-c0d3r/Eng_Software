@@ -1,32 +1,32 @@
 const create = {
-    name: {
+    Name: {
         presence: {
             allowEmpty: false,
         },
         type: 'string',
     },
-    film_maker: {
+    Film_Maker: {
         presence: {
             allowEmpty: false,
         },
         type: 'string',
     },
-    actors: {
+    Actors: {
         presence: {
             allowEmpty: false,
         },
         type: 'array',
     },
-    year: {
+    Year: {
         presence: {
             allowEmpty: false,
         },
-        type: 'int',
+        type: 'string',
     },
 };
 
 const get = {
-    name: {
+    Name: {
         presence: {
             allowEmpty: true,
         },

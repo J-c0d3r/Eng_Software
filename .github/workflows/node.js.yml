@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run:
-          working-directory: ./Lab_Tarefa7
+          working-directory: ./../../Lab_Tarefa7
           run: ls
           run: npm install
           run: npm run test

@@ -13,27 +13,8 @@ jobs:
   tests:
     runs-on: ubuntu-latest
 
-    # strategy:
-    #   matrix:
-    #     node-version: [14.x, 16.x, 18.x]
-    #     # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
       - uses: actions/checkout@v3
       - run: mv -f Lab_Tarefa7/* .
       - run: npm install
       - run: npm run test
-
-      # - name: Testando...
-      #   run: cd Lab_Tarefa7
-      #     # working-directory: ./Lab_Tarefa7
-      #   run: ls
-      #   run: npm install
-      #   run: npm run test
-      # - name: Use Node.js ${{ matrix.node-version }}
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: ${{ matrix.node-version }}
-      #     cache: "npm"
-      # - run: npm install
-      # - run: npm run test

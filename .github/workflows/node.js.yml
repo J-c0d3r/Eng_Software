@@ -20,12 +20,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Testando...
-        run: cd Lab_Tarefa7
-          # working-directory: ./Lab_Tarefa7
-        run: ls
-        run: npm install
-        run: npm run test
+      - run: mv -f Lab_Tarefa7/* .
+      - run: npm install
+      - run: npm run test
+
+      # - name: Testando...
+      #   run: cd Lab_Tarefa7
+      #     # working-directory: ./Lab_Tarefa7
+      #   run: ls
+      #   run: npm install
+      #   run: npm run test
       # - name: Use Node.js ${{ matrix.node-version }}
       #   uses: actions/setup-node@v3
       #   with:

@@ -23,3 +23,4 @@ Tecnologias e Ferramentas Utilizadas: `JavaScript e Visual Studio`
 - Testes(Jest) Mock + Projeto Carro - Tarefa 7
 - Implementando Github Actions - Tarefa 8
 - Conhecendo Abstract Factory - Tarefa 9
+- Primeiros contatos com React - Tarefa 10
